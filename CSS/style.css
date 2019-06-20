@@ -1,0 +1,129 @@
+.first {
+	width: 100%;
+	display: flex;
+}
+.second {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+h1 {
+	color: #BF9997;
+	font-family: Georgia, serif;
+	text-align: right;
+	text-transform: uppercase;
+	height: 50px;
+	width: 100%;
+	margin-bottom: 0%;
+	margin-top: 10%;
+	font-size: 27pt;
+}
+h5 {
+	color: #3F3639;
+	font-family: "Courier New", Courier, monospace;
+	text-align: right;
+	text-transform: uppercase;
+	margin-top: 0%;
+	font-size: 22pt;
+}
+hr{
+	float: right;
+	width: 100%;
+}
+body {
+	margin-top: 5%;
+	margin-bottom: 10%;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+.logo {
+	margin-top: 0%;
+	margin-bottom: 0%;
+	margin-right: 40%;
+	margin-left: 0%;
+	float: left;
+}
+.intro {
+	margin-top: 3%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+h3 {
+	font-family: Georgia, serif;
+	font-size: 28pt;
+	color: #3F3639;
+	margin-top: 10%;
+}
+h4 {
+	font-family: Georgia, serif;
+	font-size: 18pt;
+	color: #3F3639;
+	margin-top: 10%;
+}
+.down {
+	display: flex;
+}
+.secone {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.mar {
+	margin-top: 0%;
+	margin-bottom: 0%;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 767px) {
+	h1 {
+		font-size: 10pt;
+		margin-bottom: 0%;	
+	}
+	h5 {
+		font-size: 7pt;
+		margin-top: 0%;
+	}
+	h3 {
+		font-size: 18pt;
+	}
+	h4 {
+		font-size: 8pt;
+	}
+	p {
+		font-size: 8pt;
+	}
+	body {
+		margin-top: 2%;
+		margin-bottom: 5%;
+		margin-right: 5%;
+		margin-left: 5%;
+	}
+	.logo{
+		margin-right: 0%;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+	h1 {
+		font-size: 15pt;
+		margin-bottom: 9%;
+	}
+	h5 {
+		font-size: 15pt;
+		margin-top: 0%;
+	}
+	h3 {
+		font-size: 22pt;
+	}
+	h4 {
+		font-size: 14pt;
+	}
+	p {
+		font-size: 16pt;
+	}
+	body {
+		margin-top: 4%;
+		margin-bottom: 7%;
+		margin-right: 7%;
+		margin-left: 7%;
+	}
+}
